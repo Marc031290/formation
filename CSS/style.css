@@ -1,0 +1,17 @@
+p a {
+    background-color: yellow;
+}
+
+.couleurdefond {
+    background-color: paleturquoise;
+}
+
+#bodyId1 {
+    background-color: white;
+}
+
+span {
+    font-weight: bold;
+    background-color: tomato;
+    color: black;
+}

@@ -1,0 +1,10 @@
+p{
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: inside;
+    background-color: cadetblue;
+}ul{
+    display: list-item;
+    list-style-type: georgian;
+    list-style-position: outside;
+    background-color: coral;

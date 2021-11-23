@@ -1,0 +1,81 @@
+p {
+  padding: 20px;
+  margin: 30px 10px;
+}
+
+.p1 {
+  border-width: 5px;
+  border-style: solid;
+  border-color: cadetblue;
+}
+
+.p2 {
+  border: 15px double rgb(8, 86, 230);
+}
+
+.p3 {
+  background-color: turquoise;
+  border: 5px ridge rgb(172, 108, 25);
+}
+
+.p4 {
+  background-color: rgb(228, 24, 228);
+  border: 5px outset rgb(129, 151, 6);
+}
+
+.p1 {
+  border-width: 1px 2px 3px 4px;
+  border-style: dashed solid dashed solid;
+  border-color: yellow green red black;
+}
+
+body, p {
+  margin: 0px;
+}
+
+div {
+  width: 80%;
+  background-color: blue;
+  margin: 20px auto;
+}
+
+p {
+  height: 100%;
+  background-color: lightskyblue;
+  width: 100%;
+  box-sizing:border-box;
+  line-height: 100px;
+  text-align: center;
+}
+
+.p1 {
+  margin-top: 20px;
+}
+
+.p2 {
+  margin-bottom: 40px;
+}
+
+#p1 {
+  margin-bottom: 30px;
+}
+
+#p2, #p3 {
+  margin-top: 50px;
+}
+
+#p7 {
+  margin: 20px;
+}
+
+span {
+  margin: 100px;
+  background-color: yellow;
+}
+
+#p10 {
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}

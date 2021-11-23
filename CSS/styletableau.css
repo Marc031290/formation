@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+table {
+    margin: 20% auto;
+    border-collapse: collapse;
+
+}
+
+thead {
+    background-color: gray;
+}
+
+th, td {
+    border: black;
+    padding: 10px solid;
+}
+
+.prenom {
+    background-color: #D7D9F2;
+}
+
+.adresse {
+    background-color: #FFE8D4;
+}
+
+tr:nth-child(even) {
+    background-color: lightskyblue;
+}

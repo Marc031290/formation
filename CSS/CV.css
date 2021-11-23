@@ -1,0 +1,19 @@
+header {
+    background: url(https://image.shutterstock.com/z/stock-vector-military-army-badges-1011657604.jpg);
+    background-size: cover;
+    background-color: #404240;
+    top: 0;
+    height: 10vw;
+    width: 100vw;
+}
+
+#grille {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-template-areas: "";
+}
+
+  
+    

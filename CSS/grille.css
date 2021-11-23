@@ -1,0 +1,75 @@
+#grille1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    gap: 9px 16px;
+}
+.head{
+    background-color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+}
+
+
+/* mise en forme des elements affichés dans la grille*/
+
+.affichageBoite {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* placement et mise en forme des elements dans la grille*/
+
+#entete {
+    background-color: gray;
+    grid-area: 1/1/2/3;
+}
+
+#navigat {
+    margin: 10%;
+    background-color: yellow ;
+    border: 2px solid black;
+    padding-right:auto; 
+}
+
+#section {
+    background-color: blue;
+}
+
+#detail {
+    background-color: pink;
+}
+
+#bas {
+    background-color: red;
+    grid-area: 6/1/7/3;
+}
+
+#grille2 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#grille2>div {
+    background-color: greenyellow;
+}
+
+#a {
+    grid-row: 1 / span;
+    grid-column: span 2;
+}
+
+#b {
+    grid-row: 1 / span 2;
+}
+
+#c {
+    grid-column: 4 / span 2;
+}

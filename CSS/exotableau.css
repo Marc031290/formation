@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin:10% auto;
+}
+
+.couleurEntete {
+    background-color: rgb(132, 35, 211);
+    padding: 20px 100px 20px 100px;
+    border: 2px solid rgb(132, 35, 211);
+    color: white;
+}
+tbody {
+    background-color: violet;
+}
+/*définition de la couleur d'une ligne*/
+tr{
+    background-color: rgb(230, 209, 248);
+}
+td{
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(143, 110, 170);
+}
+
+
+tr {
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+tr:hover {
+    background-color: rgb(132, 35, 211);
+}

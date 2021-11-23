@@ -1,0 +1,105 @@
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+div {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#tr1 {
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 5s;
+}
+
+#tr1:hover {
+    background-color: blue;
+}
+
+#tr2 {
+    background-color: orange;
+    transition-property: background-color, border;
+    transition-duration: 0s;
+}
+
+#tr3 {
+    background-color: orange;
+    transition-property: all;
+    transition: duration 5s;
+}
+
+#tr4 {
+    background-color: orange;
+    transition-property: background-color, border;
+    transition: duration 5s;
+}
+
+#tr2:active, #tr3:hover, #tr4:hover {
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+}
+
+.affichageBoite {
+    width: 50%;
+    height: 60px;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#tr5 {
+    transition-timing-function: ease;
+    transition-delay: 5s;
+    background-color: palegreen;
+}
+
+#tr6 {
+    transition-timing-function: ease-in;
+    background-color: yellow
+}
+
+#tr7 {
+    transition-timing-function: ease-out;
+    background-color: red
+}
+
+#tr8 {
+    transition-timing-function: ease-in-out;
+    background-color: skyblue
+}
+
+#tr9 {
+    transition-timing-function: linear;
+    background-color: violet
+}
+
+#tr10 {
+    transition-timing-function: cubic-bezier(0.6, 0, 1, 1);
+}
+
+#tr5:hover, #tr6:hover, #tr7:hover, #tr8:hover, #tr9:hover, #tr10:hover {
+    width: 100%;
+}
+
+#tr5:hover, #tr6:hover, #tr7:hover, #tr8:hover, #tr9:hover, #tr10:hover {
+    width: 100%;
+    background-color: tomato;
+    border: 5px solid black;
+    margin: 20px;
+    transform: matrix(1, 2, 3, 4, 5, 6);
+}
